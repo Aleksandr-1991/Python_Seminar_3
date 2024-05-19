@@ -8,9 +8,11 @@ print(array)
 # print(array)
 
 last = array.pop()
+print(array)
 first = array.pop(0)
+print(array)
 
 array.insert(0, last)
+print(array)
 array.append(first)
-
 print(array)

@@ -8,6 +8,7 @@ list = [{"V" : "S001"}, {"V" : "S002"}, {"VI" : "S001"}, {"VI" : "S005"},
 {"VII" : "S005"}, {" V " : "S009"}, {"VIII" : "S007"}]   # Cписок словарей.
 
 set_1 = set()
+
 for dict_1 in list:
     for value in dict_1.values():
         set_1.add(value)
