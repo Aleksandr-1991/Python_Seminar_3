@@ -15,7 +15,8 @@ for dict_1 in list:
 
 print(set_1)
 # "Сет компрехеншн / множественное включение." - со слов лектора Дмитрий Читалов:
-print({pizda[chlen] for pizda in list for chlen in pizda})   # Запомнить!
+print({dict_1[item] for dict_1 in list for item in dict_1})
+print({pizda[chlen] for pizda  in list for chlen in pizda})   # Запомнить!
 
 
 if hasattr(list, '__iter__'):
